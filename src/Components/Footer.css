@@ -1,0 +1,21 @@
+.foot-cont{
+    background: rgb(26, 3, 45);
+}
+.foot-logop{
+    height: 60px;
+    width: 60px;
+}
+.foot-logo{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.foot-Name{
+    padding-left: 20px;
+}
+.foot-Name h2{
+    color: aliceblue;
+}
+.rights{
+    color: aliceblue;
+    padding-left: 20px;
+}

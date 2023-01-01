@@ -1,0 +1,41 @@
+.nav-cont{
+    display: flex;
+    height: 60px;
+    background-color: purple;
+    align-items: center;
+    justify-content: space-between;
+}
+.Name h2{
+    color: white;
+}
+.logop{
+    height: 40px;
+    width: 40px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.logo{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: fit-content;
+    width: 40px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.tag{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
