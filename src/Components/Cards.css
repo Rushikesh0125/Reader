@@ -65,6 +65,10 @@
 .drag-area.active{
   border: 2px solid purple;
 }
+
+.drag-area.active{
+  border: 2px solid purple;
+}
 .drag-area .icon{
   font-size: 100px;
   color: black;
@@ -79,6 +83,11 @@
   font-weight: 500;
   color: black;
   margin: 10px 0 15px 0;
+}
+.drag-area small{
+  font-weight: 300;
+  color: black;
+  margin: 8px 0 12px 0;
 }
 .drag-area button{
   padding: 7px 15px;
@@ -124,6 +133,43 @@
   border-radius: 5px;
   cursor: pointer;
 }
+/* .drag-area-text{
+  border: 2px dashed purple;
+  margin-top: 5px;
+  height: 94%;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.local-cont-text{
+  display: flex;
+  align-items: center;
+  height: 130px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+}
+.text{
+  display: flex;
+  height: 100%;
+  width: 98%;
+  border: none;
+  overflow: auto;
+  outline: none;
+  margin-left: 3px;
+  margin-right: 4px;
+  padding-left: 4px;
+}
+.text :focus{
+  border: none;
+  outline: none;
+} */
 
 @media only screen and (max-width: 992px){
   .card-cont{
@@ -136,12 +182,12 @@
   .drag-area header{
     font-size: 15px;
     font-weight: 500;
-    color: transparent;
+    color: black;
   }
   .drag-area span{
     font-size: 10px;
     font-weight: 500;
-    color: transparent;
+    color: black;
     margin: 10px 0 15px 0;
   }
 }

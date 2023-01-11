@@ -1,0 +1,63 @@
+.cont{
+    display: flex;
+    width: 90%;
+    height: 280px;
+    border: solid 1px rgb(249, 191, 249);
+    border-radius: 5px;
+    box-shadow: 0 0 15px -2px #444444;
+    background: rgba(247, 245, 247, 0.47);
+    align-content: center;
+}
+.text-area{
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-field{
+    width: 90%;
+    height: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow-wrap: normal;
+    font-size :larger;
+}
+.other-content{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.other-content h3{
+    margin: 0;
+}
+.other-content h5{
+    margin: 0;
+    margin-top: 2px;
+}
+.drop-down{
+    padding-top: 15px;
+}
+.drop-down h4{
+    margin-bottom: 2px;
+}
+.droplist{
+    width: 60%;
+    height: 25px;
+    margin-top: 5px;
+}
+.button-div{
+    padding-top: 40%;
+}
+.btn{
+    color: aliceblue;
+    background: purple;
+    width: 70%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
